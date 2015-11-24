@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "3ae940f3-8410-4859-82cb-97a2b19ad8f4++3340" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3ae940f3-8410-4859-82cb-97a2b19ad8f4++3340" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "65670F2A-2D87-4A43-B9C9-DF6BA359799A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3ae940f3-8410-4859-82cb-97a2b19ad8f4++3340" : "Wechat\/Wechat\/Classes\/Lib\/MBProgressHUD\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Wechat",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Wechat.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/60.28.29.48:8082\/svn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3ae940f3-8410-4859-82cb-97a2b19ad8f4++3340"
+    }
+  ]
+}

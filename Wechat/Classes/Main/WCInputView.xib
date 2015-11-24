@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WCInputView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nBp-eG-gBa">
+                    <rect key="frame" x="50" y="9" width="450" height="33"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="send"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="nBp-eG-gBa" secondAttribute="bottom" constant="8" id="HiT-Mu-UL9"/>
+                <constraint firstItem="nBp-eG-gBa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="9" id="J81-H2-VV0"/>
+                <constraint firstAttribute="trailing" secondItem="nBp-eG-gBa" secondAttribute="trailing" constant="100" id="lWN-1P-Kfl"/>
+                <constraint firstItem="nBp-eG-gBa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="50" id="qmj-Fz-VPS"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="textview" destination="nBp-eG-gBa" id="9d2-bn-C7P"/>
+            </connections>
+            <point key="canvasLocation" x="335" y="353.5"/>
+        </view>
+    </objects>
+</document>
